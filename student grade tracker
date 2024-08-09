@@ -1,0 +1,14 @@
+num=float(input("Enter number here"))
+total =50
+percentage=(num/total)*100
+print(percentage)
+if percentage>=90:
+ print("grade A+")
+elif (percentage>=75 and percentage<90):
+ print("A grade")
+elif (percentage>=50 and percentage<75):
+ print("B grade")
+elif (percentage>=40 and percentage<50):
+ print("C grade")
+else :
+ print("failed")
